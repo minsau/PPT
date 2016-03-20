@@ -1,0 +1,43 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+.container{
+	margin: auto;
+	border: 1px solid;
+}
+img {
+	margin: auto;
+}
+img.pequenia{
+  width: 50px; height: 50px;
+}
+img.mediana{
+  width: 100px; height: 100px;
+}
+img.grande{
+  width: 200px; height: 200px;
+}
+
+
+.tarjeta{
+	padding: 50px 20px 50px 20px;
+	margin:10px;
+	width: 250px;
+	height: 300px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 1px solid #000000;
+}
+#panel-juego .tarjeta{
+	display: inline-block;
+}
+
+.tarjeta:hover{
+	-webkit-box-shadow: -3px -4px 22px 0px rgba(196,190,196,1);
+	-moz-box-shadow: -3px -4px 22px 0px rgba(196,190,196,1);
+	box-shadow: -3px -4px 22px 0px rgba(196,190,196,1);
+}
